@@ -7,8 +7,6 @@ def index(request):
 
     #url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=359c651e9120433bf403e529363a3da4'
     url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=359c651e9120433bf403e529363a3da4'
-    #Call hourly forecast data
-    #url = 'http://pro.openweathermap.org/data/2.5/forecast/hourly?q={}&units=metric&appid=359c651e9120433bf403e529363a3da4'
 
     cities = City.objects.all()  # return all the cities in the database
 
